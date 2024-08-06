@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(40deg, #000, #ccc);
+    height: auto;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 0 5px;
+    max-width: 100%;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100px;
+    color: #fff;
+}
+
+.titulo, .menu {
+    display: inline-block; 
+}
+
+.titulo {
+    font-size: 30px;
+    line-height: 100px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.menu {
+   float: right;
+   line-height: 100px;
+   box-sizing: border-box;
+   padding-right: 30px;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: rgb(70, 69, 69);
+    opacity: .8;
+    transition: .8s;
+}
+
+.artigo {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 90%;
+    height: 50%;
+    margin: 5rem auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.sessao {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 180px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1480px) {
+    body {
+        height: auto;
+    }
+}
+
+h2.username {
+    color: #fff;
+}
+div.infodb {
+    color: #fff;
+}
+
+table {
+    border: 1px solid white;
+}
+
+table tr th {
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: left;
+}
+
+div.first-form, div.secand-form {
+    float: left;
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+div.first-form {
+    border-right: 3px solid #fff;
+}
+
+div.first-form form input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+div.first-form form button {
+    width: 315px;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-image: linear-gradient(40deg, rgb(58, 56, 56), #ccc);
+    color: #fff;
+}
+
+div.secand-form {
+    width: 58% ;
+    margin-left: 20px;
+}
+
+div.secand-form form input {
+    width: 305px;
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+div.secand-form form button {
+    width: 97.50%;
+    height: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-image: linear-gradient(40deg, #ccc, rgb(58, 56, 56));
+    color: #fff;
+}
